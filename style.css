@@ -21,6 +21,9 @@ body{
     background-color: var(--almost-white);
 }
 
+.header-mobile nav.abrir {
+    right: 0;
+}
 
 body.escurecer::before {
 content: "";
@@ -62,7 +65,6 @@ margin-bottom: 2rem;
   transition: 0.7s;
 }
 
-.
 
 .header-mobile nav button {
     align-self: flex-end;
